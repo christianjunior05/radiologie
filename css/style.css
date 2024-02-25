@@ -23,6 +23,7 @@ body {
     font-family: CircularStd
 }
 
+
 h1 {
     font-size: 61px;
     font-weight: 700
@@ -113,7 +114,8 @@ header {
 }
 
 .nav-menu {
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
+   
 }
 
 @media(max-width: 992px) {
@@ -434,8 +436,9 @@ header {
     background: #ffdad1
 }
 
-.color6 {
-    background: #d3d3ff
+
+.color9{
+    color: #000;
 }
 
 .color7 {
