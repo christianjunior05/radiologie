@@ -1,4 +1,6 @@
-@charset "UTF-8";/*!Style : FinCorp CSS
+@charset "UTF-8";
+
+/*!Style : FinCorp CSS
 Version : 1.0
 Author : Surjith S M
 URI : http://themeforest.net/user/surjithctly
@@ -54,7 +56,7 @@ p {
 
 @media(max-width: 992px) {
     h1 {
-        font-size:50px;
+        font-size: 50px;
         line-height: 1.1
     }
 
@@ -86,7 +88,7 @@ p {
 
 @media(max-width: 992px) {
     .space {
-        padding:40px 0
+        padding: 40px 0
     }
 }
 
@@ -115,12 +117,12 @@ header {
 
 .nav-menu {
     border-bottom: 1px solid #eee;
-   
+
 }
 
 @media(max-width: 992px) {
     .nav-menu {
-        border-bottom:0
+        border-bottom: 0
     }
 }
 
@@ -129,7 +131,7 @@ header {
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    font-weight: 500
+    font-weight: 900;
 }
 
 .main-title {
@@ -140,7 +142,7 @@ header {
 
 @media(max-width: 992px) {
     .main-title {
-        padding:0;
+        padding: 0;
         margin-top: -300px
     }
 }
@@ -153,25 +155,25 @@ header {
 
 @media(max-width: 992px) {
     .main-title__alt {
-        padding:20px 0
+        padding: 20px 0
     }
 }
 
 .header__bg {
-    background: url(../images/insurance-header-bg.svg) right top no-repeat;
+    background: url(../images/global--01.png) right top no-repeat;
     background-size: contain;
     background-position: calc(50% + 300px) 50%
 }
 
 @media(max-width: 1200px) {
     .header__bg {
-        background-position:calc(50% + 200px) 50%
+        background-position: calc(50% + 200px) 50%
     }
 }
 
 @media(max-width: 768px) {
     .header__bg {
-        background:0 0
+        background: 0 0
     }
 }
 
@@ -182,7 +184,7 @@ header {
 
 @media(max-width: 1200px) {
     .hero-title {
-        padding:0
+        padding: 0
     }
 }
 
@@ -205,7 +207,7 @@ header {
 
 @media(min-width: 992px) {
     .banner-img img {
-        position:absolute;
+        position: absolute;
         top: -260px;
         right: -190px;
         min-width: inherit;
@@ -216,7 +218,7 @@ header {
 
 @media(min-width: 1200px) {
     .banner-img img {
-        top:-300px;
+        top: -300px;
         right: -100px;
         max-height: 1100px
     }
@@ -226,15 +228,15 @@ header {
     padding: 16px 30px;
     margin: 20px 0 0;
     background: #eda384;
-    background: -moz-linear-gradient(-45deg,#eda384 0%,#f40f7e 100%);
-    background: -webkit-gradient(left top,right bottom,color-stop(0%,#eda384),color-stop(100%,#f40f7e));
-    background: -webkit-linear-gradient(-45deg,#eda384 0%,#f40f7e 100%);
-    background: -o-linear-gradient(-45deg,#eda384 0%,#f40f7e 100%);
-    background: -ms-linear-gradient(-45deg,#eda384 0%,#f40f7e 100%);
-    background: -webkit-linear-gradient(315deg,#eda384 0%,#f40f7e 100%);
-    background: -o-linear-gradient(315deg,#eda384 0%,#f40f7e 100%);
-    background: linear-gradient(135deg,#eda384 0%,#f40f7e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda384',endColorstr='#f40f7e',GradientType=1);
+    background: -moz-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
+    background: -webkit-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
+    background: -o-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
+    background: -ms-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
+    background: -webkit-linear-gradient(315deg, #eda384 0%, #f40f7e 100%);
+    background: -o-linear-gradient(315deg, #eda384 0%, #f40f7e 100%);
+    background: linear-gradient(135deg, #eda384 0%, #f40f7e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda384', endColorstr='#f40f7e', GradientType=1);
     -webkit-box-shadow: 0 0 29px -13px #f40f7c;
     box-shadow: 0 0 29px -13px #f40f7c;
     border: none;
@@ -245,13 +247,13 @@ header {
 
 .btn-danger:hover {
     background: #eda384;
-    background: -moz-linear-gradient(45deg,#eda384 0%,#f40f7e 100%);
-    background: -webkit-gradient(left bottom,right top,color-stop(0%,#eda384),color-stop(100%,#f40f7e));
-    background: -webkit-linear-gradient(45deg,#eda384 0%,#f40f7e 100%);
-    background: -o-linear-gradient(45deg,#eda384 0%,#f40f7e 100%);
-    background: -ms-linear-gradient(45deg,#eda384 0%,#f40f7e 100%);
-    background: linear-gradient(45deg,#eda384 0%,#f40f7e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda384',endColorstr='#f40f7e',GradientType=1);
+    background: -moz-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
+    background: -webkit-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
+    background: -o-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
+    background: -ms-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
+    background: linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eda384', endColorstr='#f40f7e', GradientType=1);
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s
@@ -285,13 +287,13 @@ header {
 
 @media(max-width: 1200px) {
     .banner-img-2 {
-        width:75%
+        width: 75%
     }
 }
 
 @media(max-width: 992px) {
     .banner-img-2 {
-        width:100%
+        width: 100%
     }
 }
 
@@ -314,25 +316,25 @@ header {
 
 @media(max-width: 992px) {
     .insurance-title_wrap {
-        padding:12px 0 39rem
+        padding: 12px 0 39rem
     }
 }
 
 @media(max-width: 768px) {
     .insurance-title_wrap {
-        padding:12px 0 28rem
+        padding: 12px 0 28rem
     }
 }
 
 @media(max-width: 576px) {
     .insurance-title_wrap {
-        padding:12px 0 23rem
+        padding: 12px 0 23rem
     }
 }
 
 @media(max-width: 480px) {
     .insurance-title_wrap {
-        padding:12px 0 16rem
+        padding: 12px 0 16rem
     }
 }
 
@@ -437,7 +439,7 @@ header {
 }
 
 
-.color9{
+.color9 {
     color: #000;
 }
 
@@ -474,7 +476,7 @@ header {
 
 @media(max-width: 992px) {
     .howit-block:after {
-        display:none
+        display: none
     }
 }
 
@@ -494,7 +496,7 @@ header {
 
 @media(max-width: 992px) {
     .howit-block_af:after {
-        display:none
+        display: none
     }
 }
 
@@ -508,13 +510,13 @@ header {
 
 @media(max-width: 1400px) {
     .testimonial {
-        padding:157px 0
+        padding: 157px 0
     }
 }
 
 @media(max-width: 992px) {
     .testimonial {
-        padding:0
+        padding: 0
     }
 }
 
@@ -525,7 +527,7 @@ header {
 
 @media(min-width: 992px) {
     .testi-img_wrap {
-        position:absolute;
+        position: absolute;
         bottom: 0;
         right: 0;
         max-width: 60%
@@ -534,7 +536,7 @@ header {
 
 @media(min-width: 1200px) {
     .testi-img_wrap {
-        max-width:50%;
+        max-width: 50%;
         right: 8%
     }
 }
@@ -562,7 +564,7 @@ header {
 
 @media(max-width: 768px) {
     .testi-content_block h3 {
-        font-size:24px
+        font-size: 24px
     }
 }
 
@@ -578,14 +580,14 @@ header {
 
 @media(max-width: 992px) {
     .add-section {
-        padding:60px 0;
+        padding: 60px 0;
         text-align: center
     }
 }
 
 .add-box {
-    -webkit-box-shadow: 0 2px 28px -14px rgba(160,158,158,.75);
-    box-shadow: 0 2px 28px -14px rgba(160,158,158,.75);
+    -webkit-box-shadow: 0 2px 28px -14px rgba(160, 158, 158, .75);
+    box-shadow: 0 2px 28px -14px rgba(160, 158, 158, .75);
     border-radius: 12px;
     padding: 30px;
     background: #fff
@@ -599,7 +601,7 @@ header {
 
 @media(max-width: 992px) {
     .shield {
-        margin:0 0 15px
+        margin: 0 0 15px
     }
 }
 
@@ -621,14 +623,14 @@ header {
 
 @media(max-width: 1200px) {
     .add-btn {
-        float:none;
+        float: none;
         margin: 0 0 0 36px
     }
 }
 
 @media(max-width: 992px) {
     .add-btn {
-        margin:15px 0 0
+        margin: 15px 0 0
     }
 }
 
@@ -668,8 +670,8 @@ header {
 .btn-primary {
     background-color: #2b7fff;
     border-color: #2b7fff;
-    -webkit-box-shadow: 0 4px 37px -11px #288fff!important;
-    box-shadow: 0 4px 37px -11px #288fff!important
+    -webkit-box-shadow: 0 4px 37px -11px #288fff !important;
+    box-shadow: 0 4px 37px -11px #288fff !important
 }
 
 .btn-primary:hover {
@@ -685,8 +687,8 @@ header {
 .btn-warning {
     background-color: #ffae8c;
     border-color: #ffae8c;
-    -webkit-box-shadow: 0 4px 37px -11px #ffae8c!important;
-    box-shadow: 0 4px 37px -11px #ffae8c!important;
+    -webkit-box-shadow: 0 4px 37px -11px #ffae8c !important;
+    box-shadow: 0 4px 37px -11px #ffae8c !important;
     color: #fff
 }
 
@@ -697,9 +699,9 @@ header {
 }
 
 .btn-warning:active {
-    background-color: #ea9b79!important;
-    border-color: #ea9b79!important;
-    color: #fff!important
+    background-color: #ea9b79 !important;
+    border-color: #ea9b79 !important;
+    color: #fff !important
 }
 
 .btn-warning:focus {
@@ -714,7 +716,7 @@ header {
 
 @media(max-width: 992px) {
     .pricing {
-        padding:25px 0
+        padding: 25px 0
     }
 }
 
@@ -730,7 +732,7 @@ header {
 
 @media(max-width: 768px) {
     .pricing-bg {
-        display:none
+        display: none
     }
 }
 
@@ -744,7 +746,7 @@ header {
 
 @media(max-width: 768px) {
     .pricing-wrap {
-        margin:30px 0 0
+        margin: 30px 0 0
     }
 }
 
@@ -753,13 +755,13 @@ header {
     text-align: center;
     width: 100%;
     padding: 30px;
-    -webkit-box-shadow: 0 0 27px -17px rgba(158,158,158,.75);
-    box-shadow: 0 0 27px -17px rgba(158,158,158,.75)
+    -webkit-box-shadow: 0 0 27px -17px rgba(158, 158, 158, .75);
+    box-shadow: 0 0 27px -17px rgba(158, 158, 158, .75)
 }
 
 @media(max-width: 992px) {
     .pricing-block {
-        padding:33px 13px
+        padding: 33px 13px
     }
 }
 
@@ -770,7 +772,7 @@ header {
 
 @media(max-width: 992px) {
     .pricing-block p {
-        font-size:13px
+        font-size: 13px
     }
 }
 
@@ -851,7 +853,7 @@ header {
 
 @media(max-width: 768px) {
     .pricing-block_middle {
-        margin:25px 0;
+        margin: 25px 0;
         -webkit-transform: none;
         -ms-transform: none;
         transform: none
@@ -870,7 +872,7 @@ header {
 
 @media(max-width: 992px) {
     .pricing-bottom_text {
-        margin:25px 0 0
+        margin: 25px 0 0
     }
 }
 
@@ -898,7 +900,7 @@ header {
 
 @media(max-width: 1200px) {
     .collapse-set {
-        padding:0
+        padding: 0
     }
 }
 
@@ -911,20 +913,20 @@ header {
 
 @media(max-width: 1200px) {
     .pricing-bg02 {
-        bottom:42%;
+        bottom: 42%;
         width: 45%
     }
 }
 
 @media(max-width: 1200px) {
     .pricing-bg02 {
-        display:none
+        display: none
     }
 }
 
 @media(min-width: 992px) {
     .responsive-bg {
-        display:none
+        display: none
     }
 }
 
@@ -1006,39 +1008,39 @@ footer {
 
 @media(max-width: 1600px) {
     .main-banner {
-        right:4%
+        right: 4%
     }
 }
 
 @media(max-width: 1400px) {
     .main-banner {
-        right:0
+        right: 0
     }
 }
 
 @media(max-width: 1200px) {
     .main-banner {
-        right:-2%;
+        right: -2%;
         width: 75%
     }
 }
 
 @media(max-width: 992px) {
     .main-banner {
-        right:-4%;
+        right: -4%;
         width: 70%
     }
 }
 
 @media(max-width: 768px) {
     .main-banner {
-        display:none
+        display: none
     }
 }
 
 @media(min-width: 768px) {
     .main-banner_md {
-        display:none
+        display: none
     }
 }
 
@@ -1064,20 +1066,20 @@ footer {
 
 @media(max-width: 1400px) {
     .bg-style2 {
-        left:-15%
+        left: -15%
     }
 }
 
 @media(max-width: 992px) {
     .bg-style2 {
-        left:-20%;
+        left: -20%;
         bottom: 6%
     }
 }
 
 @media(max-width: 768px) {
     .bg-style2 {
-        width:45%;
+        width: 45%;
         bottom: 2%
     }
 }
@@ -1091,26 +1093,26 @@ footer {
 
 @media(max-width: 1400px) {
     .banner-img-3 {
-        left:0
+        left: 0
     }
 }
 
 @media(max-width: 1200px) {
     .banner-img-3 {
-        width:75%
+        width: 75%
     }
 }
 
 @media(max-width: 992px) {
     .banner-img-3 {
-        width:100%;
+        width: 100%;
         bottom: 0
     }
 }
 
 @media(max-width: 768px) {
     .banner-img-3 {
-        width:65%
+        width: 65%
     }
 }
 
@@ -1143,7 +1145,7 @@ footer {
 
 @media(max-width: 768px) {
     .content-box1 {
-        padding:0
+        padding: 0
     }
 }
 
@@ -1153,25 +1155,25 @@ footer {
 
 @media(max-width: 992px) {
     .insurance-title_wrap2 {
-        padding:12px 0 39rem
+        padding: 12px 0 39rem
     }
 }
 
 @media(max-width: 768px) {
     .insurance-title_wrap2 {
-        padding:12px 0 28rem
+        padding: 12px 0 28rem
     }
 }
 
 @media(max-width: 576px) {
     .insurance-title_wrap2 {
-        padding:12px 0 23rem
+        padding: 12px 0 23rem
     }
 }
 
 @media(max-width: 480px) {
     .insurance-title_wrap2 {
-        padding:12px 0 16rem
+        padding: 12px 0 16rem
     }
 }
 
