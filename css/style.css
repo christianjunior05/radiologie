@@ -1029,8 +1029,7 @@ footer {
 
 @media(max-width: 992px) {
     .main-banner {
-        right: -4%;
-        width: 70%
+        display: none;
     }
 }
 
