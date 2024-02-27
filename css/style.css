@@ -504,8 +504,9 @@ header {
 
 .testimonial {
     position: relative;
-    background: url(../images/bg-2.png) no-repeat right bottom;
+    background: url(../images/bg-2.png) no-repeat right ;
     padding: 178px 0;
+    
     z-index: -2;
     background-size: contain
 }

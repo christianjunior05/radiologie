@@ -36,40 +36,23 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"
-                  ><img src="images/logo.png" alt="#"
-                /></a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="images/logooo.png" alt="#" width="100px" /></a>
+                <button class="navbar-toggler navbar-toggler_second" type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
                   <i class="fas fa-bars"></i>
                 </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#"
-                        >For you & family
-                        <span class="sr-only">(current)</span></a
-                      >
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item color9">
+                      <a class=" color9" href="#">Accueil </a>
                     </li>
                     <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        tabindex="-1"
-                        aria-disabled="true"
-                        >For Business</a
-                      >
+                      <a class=" color9" href="#">Contactez nous </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="color9" href="faq.html">FAQ</a>
                     </li>
                   </ul>
                 </div>
@@ -78,204 +61,77 @@
           </div>
         </div>
       </div>
-      <div class="banner-img">
-        <img src="images/banner-illustration.svg" class="img-fluid" alt="#" />
-
-        <div class="main-title">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-5">
-                <div class="hero-title">
-                  <p>Hello, We are Fincorp</p>
-                  <h1>
-                    Insurance<br />
-                    made easy.
-                  </h1>
-                  <a
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#contactmodal"
-                    class="btn btn-danger"
-                    >Get your free Quote</a
-                  >
+  
+      <div class="main-title__alt header__bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="hero-title text-center text-md-left">
+                <h5>Bienvenue sur Radio Express France </h5>
+                <h1>
+                  La radiologie qui <br> vient à vous
+                </h1>
+                <div class="add-btn pricing-btn_wrap">
+                  <a href="#" data-toggle="modal" data-target="#contactmodal" class="btn btn-success">Abonnez-vous </a>
                 </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="main-banner_md">
+                <img src="images/global--01.png" />
               </div>
             </div>
           </div>
         </div>
+        <div class="bg-style d-none d-md-block">
+          <img src="images/bg-image3.png" class="img-fluid" alt="#" width="150px" />
+        </div>
       </div>
-
-      <div
-        class="modal fade"
-        id="contactmodal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="phpcontactform"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-dialog-centered modal-dialog-zoom"
-          role="document"
-        >
+  
+      <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="phpcontactform"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-zoom" role="document">
           <div class="modal-content">
             <div class="modal-body">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"></span>
               </button>
-              <form
-                class="quote-form"
-                action="php/contact.php"
-                method="post"
-                id="phpcontactform"
-              >
+              <form class="quote-form" action="php/contact.php" method="post" id="phpcontactform">
                 <h5 class="text-center mt-3 mb-4">Get a Free Quote!</h5>
                 <div class="form-group">
                   <div class="row">
                     <div class="col-sm-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="first_name"
-                        name="first_name"
-                        placeholder="First Name*"
-                        required
-                      />
+                      <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name*"
+                        required />
                     </div>
                     <div class="col-sm-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="last_name"
-                        name="last_name"
-                        placeholder="Last Name*"
-                        required
-                      />
+                      <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name*"
+                        required />
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Email Address*"
-                    required
-                  />
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email Address*"
+                    required />
                 </div>
                 <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="phone"
-                    name="phone"
-                    placeholder="Phone*"
-                    required
-                  />
+                  <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone*" required />
                 </div>
                 <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="pac-input"
-                    name="address"
-                    placeholder="Address*"
-                    required
-                  />
+                  <input type="text" class="form-control" id="pac-input" name="address" placeholder="Address*" required />
                 </div>
-                <button
-                  type="submit"
-                  class="btn btn-danger w-100"
-                  id="js-contact-btn"
-                >
+                <button type="submit" class="btn btn-success w-100" id="js-contact-btn">
                   <strong> Get Free Quote </strong>
                 </button>
-                <div
-                  id="js-contact-result"
-                  data-success-msg="Success, We will get back to you soon"
-                  data-error-msg="Oops! Something went wrong"
-                ></div>
+                <div id="js-contact-result" data-success-msg="Success, We will get back to you soon"
+                  data-error-msg="Oops! Something went wrong"></div>
               </form>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="space bg-image">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="center-title">
-                <h2>A new take on insurance</h2>
-                <p>Great for individuals and business</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 col-lg-7 ml-auto">
-              <div class="insurance-title_wrap">
-                <h5>
-                  Monotonectally deploy seamless data and resource maximizing
-                  systems.
-                </h5>
-                <h6>
-                  Great for individuals and small families up to 4 members.
-                </h6>
-                <p class="insurance-para">
-                  A strong, up-to-date, employee benefits health insurance
-                  program is vital for attracting and retaining good employees.
-                  It takes diligence, creativity and attention to detail to
-                  ensure you are getting the best “bang for your buck” each and
-                  every year.
-                </p>
-                <div class="insurance-type d-flex align-items-center">
-                  <img src="images/tick.png" alt="#" />
-                  <div class="insurance-type_title">
-                    <h6>Comprehensive Insurance</h6>
-                    <p>
-                      Dynamically repurpose e-business users rather than
-                      granular products.
-                    </p>
-                  </div>
-                </div>
-                <div class="insurance-type d-flex align-items-center">
-                  <img src="images/tick.png" alt="#" />
-                  <div class="insurance-type_title">
-                    <h6>Support is just a call away</h6>
-                    <p>
-                      Rapidiously customize value-added platforms compliant
-                      action items.
-                    </p>
-                  </div>
-                </div>
-                <div class="insurance-type d-flex align-items-center">
-                  <img src="images/tick.png" alt="#" />
-                  <div class="insurance-type_title">
-                    <h6>Say goodbye to paperwork.</h6>
-                    <p>
-                      Globally deliver economically sound communities
-                      relationships.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="banner-img-2">
-          <img
-            src="images/health-family-illustration.svg"
-            width="978"
-            class="img-fluid"
-            alt="#"
-          />
-        </div>
-      </div>
+  
+      
     </header>
 
     <section class="space bg-light">
