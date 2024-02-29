@@ -161,9 +161,9 @@ header {
 }
 
 .header__bg {
-  background: url(../images/global--01.png) right top no-repeat;
-  background-size: contain;
-  background-position: calc(50% + 300px) 50%;
+  background: url(../images/Frame11.png) right top no-repeat;
+
+  
 }
 
 @media (max-width: 1200px) {
